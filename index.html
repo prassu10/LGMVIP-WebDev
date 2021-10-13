@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>FRAPPÉ</title>
+
+        <link
+            rel="stylesheet"
+            href="https://unpkg.com/swiper/swiper-bundle.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css"
+        />
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <!-- header section starts -->
+
+        <header>
+            <a href="index.html" class="logo">
+                <img src="images/logo.jpg" width="70" alt="" />
+                <span style="padding-left: 10px">frappé.</span>
+            </a>
+
+            <nav class="navbar">
+                <a class="active" href="#home">home</a>
+                <a href="#dishes">dishes</a>
+                <a href="#about">about</a>
+                <a href="#menu">menu</a>
+                <a href="#review">review</a>
+                <a href="#order">order</a>
+            </nav>
+
+            <div class="icons">
+                <i class="fas fa-bars" id="menu-bars"></i>
+                <i class="fas fa-search" id="search-icon"></i>
+                <a href="#review" class="fas fa-heart"></a>
+                <a href="#order" class="fas fa-shopping-cart"></a>
+            </div>
+        </header>
+
+
+
+        <!-- search form  -->
+
+        <form action="" id="search-form">
+            <input type="search" placeholder="search here..." name="" id="search-box"/>
+            <label for="search-box" class="fas fa-search"></label>
+            <i class="fas fa-times" id="close"></i>
+        </form>
+
+
+
+        <!-- home section starts  -->
+
+        <section class="home" id="home">
+            <div class="swiper home-slider">
+                <div class="swiper-wrapper wrapper">
+                    <div class="swiper-slide slide">
+                        <div class="content">
+                            <span>our special dish</span>
+                            <h3>Berry Piggy Smoothie Bowl</h3>
+                            <p>
+                                smoothie bowl with a pig face made from berries.
+                                uses the natural sweetness of fruit.
+                            </p>
+                            <a href="#order" class="btn">order now</a>
+                        </div>
+                        <div class="image">
+                            <img src="images/home-img-1.jpg" alt=""/>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <div class="content">
+                            <span>our special dish</span>
+                            <h3>Fresh Cream Custard Trifles</h3>
+                            <p>
+                                English Pudding with layers of a sponge cake,
+                                thick custard, fruits, jelly and whipped cream.
+                            </p>
+                            <a href="#order" class="btn">order now</a>
+                        </div>
+                        <div class="image">
+                            <img src="images/home-img-2.jpg" alt="" />
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <div class="content">
+                            <span>our special dish</span>
+                            <h3>double layered chocolate cake</h3>
+                            <p>
+                                Soooooo luscious, chocolaty, rich and moist with
+                                fresh cream icing.
+                            </p>
+                            <a href="#order" class="btn">order now</a>
+                        </div>
+                        <div class="image">
+                            <img src="images/home-img-3.jpg" alt="" />
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+
+
+        <!-- dishes section starts  -->
+
+        <section class="dishes" id="dishes">
+            <h3 class="sub-heading">our dishes</h3>
+            <h1 class="heading">popular dishes</h1>
+
+            <div class="box-container">
+                <div class="box">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    <img src="images/dish-1.jpg" alt="" />
+                    <h3>Double Banana Split with ice-cream</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>₹150</span>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="box">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    <img src="images/dish-2.jpg" alt="" />
+                    <h3>creamy vanilla milkshake</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>₹120</span>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="box">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    <img src="images/dish-3.jpg" alt="" />
+                    <h3>Ice-cream Cookie Sandwiches</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>₹120</span>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="box">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    <img src="images/dish-4.jpg" alt="" />
+                    <h3>almond yogurt</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>₹100</span>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="box">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    <img src="images/dish-5.jpg" alt="" />
+                    <h3>Hot Chocolate Floats</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>₹150</span>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="box">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    <img src="images/dish-6.jpg" alt="" />
+                    <h3>Toffee Apples</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>₹100</span>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="box">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    <img src="images/dish-7.jpg" alt="" />
+                    <h3>Ice Cream French Toast</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>₹150</span>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="box">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    <img src="images/dish-8.jpg" alt="" />
+                    <h3>Easter Nest Cupcakes</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>₹120</span>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="box">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    <img src="images/dish-9.jpg" alt="" />
+                    <h3>Easter Freakshake</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>₹150</span>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- about section starts  -->
+
+        <section class="about" id="about">
+            <h3 class="sub-heading">about us</h3>
+            <h1 class="heading" style="color: #6495ed">why choose us?</h1>
+
+            <div class="row">
+                <div class="image">
+                    <img src="images/about-img.jpg" alt="" />
+                </div>
+
+                <div class="content">
+                    <h3>best shakes in the city</h3>
+                    <p>
+                        frappé strives to source local, sustainable and organic
+                        when possible. We work hard to source premium
+                        ingredients and we cook everything from scratch with
+                        love. We also do our best to pay our employees living
+                        wages (tips are shared with all employees, including
+                        kitchen staff) and to reduce our environmental footprint
+                        wherever we can. Overall, these factors translate to
+                        higher menu prices, but we hope that you find value and
+                        feel a sense of comfort in knowing that we aim to get
+                        better everyday at doing what is important to us.
+                    </p>
+                    <p>
+                        We have been around for 20 years, and we have been
+                        through some real ups and downs. But through it all we
+                        have served awesome pizza and chicken, that’s why we are
+                        sort of famous. Thanks for choosing us, we hope you
+                        enjoy.
+                    </p>
+                    <div class="icons-container">
+                        <div class="icons">
+                            <i class="fas fa-shipping-fast"></i>
+                            <span>free delivery</span>
+                        </div>
+                        <div class="icons">
+                            <i class="fas fa-dollar-sign"></i>
+                            <span>easy payments</span>
+                        </div>
+                        <div class="icons">
+                            <i class="fas fa-headset"></i>
+                            <span>24/7 service</span>
+                        </div>
+                    </div>
+                    <br /><br />
+                    <center><a href="#" class="btn">learn more</a></center>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- menu section starts  -->
+
+        <section class="menu" id="menu">
+            <h3 class="sub-heading">our menu</h3>
+            <h1 class="heading">today's speciality</h1>
+
+            <div class="box-container">
+                <div class="box">
+                    <div class="image">
+                        <img src="images/menu-1.jpg" alt="" />
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Affogato</h3>
+                        <p>
+                            two scoops of your Vanilla Ice-cream and a shot of
+                            espresso topped with whipped cream.
+                        </p>
+                        <a href="#" class="btn">add to cart</a>
+                        <span class="price">₹150</span>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="images/menu-2.jpg" alt="" />
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Chocolate Milkshake</h3>
+                        <p>
+                            vanilla ice cream and cocoa powder which is then
+                            topped with whipped cream and also chocolate syrup.
+                        </p>
+                        <a href="#" class="btn">add to cart</a>
+                        <span class="price">₹150</span>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="images/menu-3.png" alt="" />
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Cheesecake</h3>
+                        <p>
+                            Cheesecake made with Kefalos creme fraiche and fresh
+                            cream topped with vanilla icing.
+                        </p>
+                        <a href="#" class="btn">add to cart</a>
+                        <span class="price">₹100</span>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="images/menu-4.png" alt="" />
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Belgian chocolate milkshake</h3>
+                        <p>
+                            rich, creamy and decadent Belgian chocolate ice
+                            cream is a no-churn.
+                        </p>
+                        <a href="#" class="btn">add to cart</a>
+                        <span class="price">₹100</span>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="images/menu-5.jpg" alt="" />
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>natural fruit Smoothies</h3>
+                        <p>
+                            For a natural energy drink, try whizzing up one of
+                            these nutritious smoothies using Natural Yoghurt!
+                        </p>
+                        <a href="#" class="btn">add to cart</a>
+                        <span class="price">₹150</span>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="images/menu-6.jpg" alt="" />
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Double Chocolate Milkshake</h3>
+                        <p>
+                            creamy luscious Double Chocolate Milkshake with
+                            Chocolate Ice Cream!
+                        </p>
+                        <a href="#" class="btn">add to cart</a>
+                        <span class="price">₹150</span>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="images/menu-7.jpg" alt="" />
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Hazelhut Milkshakes</h3>
+                        <p>
+                            hazelnut and cocoa powder which is then topped with
+                            whipped cream and also chocolate syrup.
+                        </p>
+                        <a href="#" class="btn">add to cart</a>
+                        <span class="price">₹200</span>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="images/menu-8.jpg" alt="" />
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Ice Cream Sundae Bar</h3>
+                        <p>
+                            It’s Sundae Fun Day! Make your own Ice Cream Sundae
+                            Bar of bright colourful treats to top your Ice
+                            Cream.
+                        </p>
+                        <a href="#" class="btn">add to cart</a>
+                        <span class="price">₹200</span>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="images/menu-9.jpg" alt="" />
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Ice Cream Hot Chocolate Floats</h3>
+                        <p>
+                            the idea behind hot chocolate floats is Ice cream +
+                            hot chocolate = done
+                        </p>
+                        <a href="#" class="btn">add to cart</a>
+                        <span class="price">₹200</span>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="images/menu-10.jpg" alt="" />
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Chocolate Muffins</h3>
+                        <p>
+                            the muffins are incredibly rich, mega chocolate-y,
+                            and loaded with chocolate chips in every single bite
+                        </p>
+                        <a href="#" class="btn">add to cart</a>
+                        <span class="price">₹150</span>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="images/menu-11.png" alt="" />
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Almond cookies with chocolate icing</h3>
+                        <p>
+                            Almond cookies topprd with luscious chocolate icing.
+                        </p>
+                        <a href="#" class="btn">add to cart</a>
+                        <span class="price">₹100</span>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="images/menu-12.jpg" alt="" />
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Banoffee Pie Milkshake</h3>
+                        <p>
+                            banoffee pie to a milkshake with caramel, banana and
+                            ice-cream & topped it off with chocolate.
+                        </p>
+                        <a href="#" class="btn">add to cart</a>
+                        <span class="price">₹120</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- review section starts  -->
+
+        <section class="review" id="review">
+            <h3 class="sub-heading">customer's review</h3>
+            <h1 class="heading">what they say</h1>
+
+            <div class="swiper review-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide slide">
+                        <i class="fas fa-quote-right"></i>
+                        <div class="user">
+                            <img src="images/pic-1.gif" alt="" />
+                            <div class="user-info">
+                                <h3>Sasha Braus</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p>
+                            I have to say, I enjoyed every single bite of the
+                            meal in frappé. I had a 3 course meal, with a couple
+                            of beers. Considering the quality, the price is
+                            reasonable. Ideal for those who want a romantic
+                            night out. There was also plenty of room for bigger
+                            groups.
+                        </p>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <i class="fas fa-quote-right"></i>
+                        <div class="user">
+                            <img src="images/pic-2.gif" alt="" />
+                            <div class="user-info">
+                                <h3>Levi Ackermann</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p>
+                            Excellent food. Menu is extensive and seasonal to a
+                            particularly high standard. Definitely fine dining.
+                            It can be expensive but worth it and they do
+                            different deals on different nights so it’s worth
+                            checking them out before you book. Highly
+                            recommended.
+                        </p>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <i class="fas fa-quote-right"></i>
+                        <div class="user">
+                            <img src="images/pic-3.gif" alt="" />
+                            <div class="user-info">
+                                <h3>Potato girl</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p>
+                            This place is great! Atmosphere is chill and cool
+                            but the staff is also really friendly. They know
+                            what they’re doing and what they’re talking about.
+                            Food is pretty good, some italian classics and some
+                            twists, and for their prices it’s 100% worth it.
+                        </p>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <i class="fas fa-quote-right"></i>
+                        <div class="user">
+                            <img src="images/pic-4.gif" alt="" />
+                            <div class="user-info">
+                                <h3>Eren Yeager</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p>
+                            This cozy restaurant has left the best impressions!
+                            Hospitable hosts, delicious dishes, beautiful
+                            presentation, wide wine list and wonderful dessert.
+                            I would like to come back here again and again. They
+                            made us feel welcomed and gave us an amazing
+                            experience.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- order section starts  -->
+
+        <section class="order" id="order">
+            <h3 class="sub-heading">order now</h3>
+            <h1 class="heading">free and fast</h1>
+
+            <form action="">
+                <div class="inputBox">
+                    <div class="input">
+                        <span>your name</span>
+                        <input type="text" placeholder="enter your name" />
+                    </div>
+                    <div class="input">
+                        <span>your number</span>
+                        <input type="number" placeholder="enter your number" />
+                    </div>
+                </div>
+                <div class="inputBox">
+                    <div class="input">
+                        <span>your order</span>
+                        <input type="text" placeholder="enter food name" />
+                    </div>
+                    <div class="input">
+                        <span>additional food</span>
+                        <input type="test" placeholder="extra with food" />
+                    </div>
+                </div>
+                <div class="inputBox">
+                    <div class="input">
+                        <span>Quantity</span>
+                        <input type="number" placeholder="how many orders" />
+                    </div>
+                    <div class="input">
+                        <span>date and time</span>
+                        <input type="datetime-local" placeholder="dd-mm-yyyy" />
+                    </div>
+                </div>
+                <div class="inputBox">
+                    <div class="input">
+                        <span>your address</span>
+                        <textarea
+                            name=""
+                            placeholder="enter your address"
+                            id=""
+                            cols="30"
+                            rows="10"
+                        ></textarea>
+                    </div>
+                    <div class="input">
+                        <span>Review</span>
+                        <textarea
+                            name=""
+                            placeholder="enter your message"
+                            id=""
+                            cols="30"
+                            rows="10"
+                        ></textarea>
+                    </div>
+                </div>
+
+                <center>
+                    <input type="submit" value="order now" class="btn" />
+                </center>
+            </form>
+        </section>
+
+
+
+        <!-- footer section starts  -->
+
+        <section class="footer">
+            <div class="footer-basic">
+                <footer>
+                    <div class="social" style="color: black">
+                        <a href="#"><i class="icon ion-social-instagram"></i></a>
+                        <a href="#"><i class="icon ion-social-linkedin"></i></a>
+                        <a href="#"><i class="icon ion-social-twitter"></i></a>
+                        <a href="#"><i class="icon ion-social-facebook"></i></a>
+                    </div>
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <a href="#home">Home</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#dishes">dishes</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#about">About</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#menu">menu</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#review">review</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#order">order</a>
+                        </li>
+                    </ul>
+                    <p class="copyright">frappé © 2021</p>
+                </footer>
+            </div>
+        </section>
+
+        <!-- footer section ends -->
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <!-- custom js file link  -->
+        <script src="js/script.js"></script>
+    </body>
+</html>
